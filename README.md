@@ -3,36 +3,29 @@
 ## Codes for use Zabbix API
   - ack_event_zabbix.py
   - itservices_zabbix.py
-  - auto-add-hosts.py
+  - auto-add-hosts.py (modified)
    
 ## Installation
 
-You need lib zabbix-api and pip
+You need lib zabbix-api, progressbar and pip
 
 ```sh
 # apt-get install python-pip git
-# pip install zabbix-api
+# pip install zabbix-api progressbar
 
-$ git clone https://github.com/janssenlima/api-zabbix
+$ git clone https://github.com/drkvoid/api-zabbix 
 ```
 
 ## How to use - examples
 
 #### auto-add-hosts.py
->Change the file path in the code
+>Use the ODS file to generate your csv for importing.  Default path is /tmp/hosts.csv
 
 >Structure hosts.csv file
 
 ```sh
-hostautomatico1;192.168.0.1
-hostautomatico2;192.168.0.2
-hostautomatico3;192.168.0.3
-hostautomatico4;192.168.0.4
-hostautomatico5;192.168.0.5
-.
-.
-.
-hostautomatico100;192.168.0.100
+hostname;ip;dns;groupid;templateid;inttype;port
+
 ```
 
 >Just run

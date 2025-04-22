@@ -56,3 +56,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#VS Code settings
+.vscode/
+
+# Don't sync the vars.py until we remove server info
+config/vars.py

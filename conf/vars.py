@@ -1,3 +1,3 @@
-ZBX_SERVER="http://SEU.ZABBIX.SERVER"
-ZBX_USER="USUARIO"
-ZBX_PASS="SENHA"
+ZBX_SERVER="https://zabbix.corporate.wightman.ca/zabbix"
+ZBX_USER="APIUser"
+ZBX_PASS="Rrf2@N@LRJpA*V@"
